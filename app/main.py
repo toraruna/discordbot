@@ -1,7 +1,7 @@
 import discord
 import random
 import os
-from keep import keep_alive
+from server import server_thread
 import datetime
 
 # 自分のトークンに置き換えてください
