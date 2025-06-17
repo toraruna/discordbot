@@ -96,6 +96,6 @@ async def on_message(message):
 
 
 # Botの起動
-keep_alive()
-client.run(os.environ['TOKEN'])
+server_thread()
+client.run(TOKEN)
 
